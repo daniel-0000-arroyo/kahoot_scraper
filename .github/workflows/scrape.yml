@@ -1,0 +1,14 @@
+name: Kahoot Scraper Auto
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Llamar a la API en Render
+        run: |
+          curl https://TU-APP.onrender.com/scrape/ID_DEL_KAHOOT

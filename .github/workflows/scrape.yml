@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Llamar a la API en Render
         run: |
-          curl https://TU-APP.onrender.com/scrape/ID_DEL_KAHOOT
+          curl https://kahoot-scraper.onrender.com

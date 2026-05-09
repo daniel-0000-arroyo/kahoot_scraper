@@ -9,6 +9,25 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - name: Scrape desde Render
+      - name: Scrapear Kahoots desde Render
         run: |
           curl https://kahoot-scraper.onrender.com/scrape_search/math
+          curl https://kahoot-scraper.onrender.com/scrape_search/science
+          curl https://kahoot-scraper.onrender.com/scrape_search/english
+          curl https://kahoot-scraper.onrender.com/scrape_search/geography
+          curl https://kahoot-scraper.onrender.com/scrape_search/history
+          curl https://kahoot-scraper.onrender.com/scrape_search/animals
+          curl https://kahoot-scraper.onrender.com/scrape_search/sports
+          curl https://kahoot-scraper.onrender.com/scrape_search/quiz
+          curl https://kahoot-scraper.onrender.com/scrape_search/test
+          curl https://kahoot-scraper.onrender.com/scrape_search/exam
+          curl https://kahoot-scraper.onrender.com/scrape_search/school
+          curl https://kahoot-scraper.onrender.com/scrape_search/biology
+          curl https://kahoot-scraper.onrender.com/scrape_search/chemistry
+          curl https://kahoot-scraper.onrender.com/scrape_search/physics
+          curl https://kahoot-scraper.onrender.com/scrape_search/trivia
+          curl https://kahoot-scraper.onrender.com/scrape_search/random
+          curl https://kahoot-scraper.onrender.com/scrape_search/general
+          curl https://kahoot-scraper.onrender.com/scrape_search/fun
+          curl https://kahoot-scraper.onrender.com/scrape_search/challenge
+          curl https://kahoot-scraper.onrender.com/scrape_search/learning
